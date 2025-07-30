@@ -12,6 +12,11 @@
         "index.d.ts",
         "from.d.ts"
     ],
+    "exports": {
+        ".": "./index.js",
+        "./file.js": "./file.js",
+        "./from.js": "./from.js"
+    },
     "scripts": {
         "test": "node --experimental-loader ./test/http-loader.js ./test/test-wpt-in-node.js",
         "report": "c8 --reporter json --reporter text npm run test",

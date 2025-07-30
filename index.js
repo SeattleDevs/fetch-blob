@@ -252,3 +252,4 @@ Object.defineProperties(_Blob.prototype, {
 
 /** @type {typeof globalThis.Blob} */
 export const Blob = _Blob
+export default Blob

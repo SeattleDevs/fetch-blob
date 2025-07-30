@@ -46,3 +46,4 @@ const _File = class File extends Blob {
 
 /** @type {typeof globalThis.File} */// @ts-ignore
 export const File = _File
+export default File
